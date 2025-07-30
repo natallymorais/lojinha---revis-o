@@ -1,0 +1,30 @@
+/* css gradiend : site  */
+:root{
+    --escuro: rgb(29, 29, 29);
+    --claro: rgb(212, 212, 212);
+    --primary: rgb(3, 102, 177);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    border-bottom: 1px solid var(--primary)!important;
+}
+
+.temaClaro{
+    background-color: var(--claro)!important;
+    color: var(--escuro)!important;
+    transition: 1s;
+}
+
+.temaEscuro{
+    background-color: var(--escuro)!important;
+    color: var(--claro)!important;
+    transition: 1s;
+}
+
+.temaEscuro a {
+    color: var(--claro)!important;
+}
