@@ -1,2 +1,2 @@
 # lojinha - revisão
-revisáo 
+revisão 
